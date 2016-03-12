@@ -1,13 +1,13 @@
 ﻿/** Main Skeleton **/
 body {
-	background-color:#003366;
+	background-color:#f3e4b4;
 }
 
 .header	{
 	position: relative;
 	margin:0;
 	padding:0;
-	background-color:#003366;
+	background-color:#ffffff;
 	
 	font-size:40px;
 	color: orange;
@@ -15,7 +15,7 @@ body {
 }
 
 .nav ul{
-	background-color:#3366CC;		
+	background-color:#caac07;		
 	height: 32px;
 
 
@@ -60,12 +60,12 @@ body {
 .footer {
 	position:fixed;
 	bottom:10px;
-	background-color:#3366CC;
+	background-color:#caac07;
 	width:1260px;
 	height:25px;
 	margin-right:10px;
 	font-size:12px;
-	color:orange;
+	color:blue;
 	text-align:center;	
 }
 
@@ -74,24 +74,29 @@ body {
 }
 
 /**front page **/
-#frontpic{
+#frontpic {
 	position:relative;
 	height:600px;
-	width:800px;
+	width:900px;
 	left:300px;
 	top:100px;
-}
-
-#frontpic p {
-	position: relative;
 	font-size:large;
 	color:aqua;
+	text-decoration:none;
 }
 
-#frontpic a {
-	font-size:large;
+#frontpic a{
 	text-decoration:none;
 	color:aqua;
+	
+}
+
+
+#frontpic a:hover{
+	font-size:large;
+	text-decoration:none;
+	color:orange;
+	
 }
 
 /** home and index **/
